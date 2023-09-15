@@ -31,3 +31,23 @@
     color: olive;
 
 }
+
+table, td {
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+th {
+    color: white;
+}
+
+td:nth-child(n) {
+    background-color:cornsilk;
+}
+
+th:nth-child(n) {
+    background-color:darkgoldenrod;
+}
